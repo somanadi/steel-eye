@@ -1,8 +1,8 @@
 # Technical Test Instructions
 1)  Launch the Appication layer of Infrastructure
 2) GO Environment Setup
-   2a.  Create a projects directory to place our sample application
-   2b.  Modify **/etc/environment** file
+   *  Create a projects directory to place our sample application
+   *  Modify **/etc/environment** file
 3) Deploy the sample application to projects Directory  and compling the Application.
 4) Launch the sample application as systemd service and testing the sample application from Application server.
 
