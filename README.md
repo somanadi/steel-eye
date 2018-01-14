@@ -1,13 +1,13 @@
 # Technical Test Instructions
 1)  Launch the Appication layer of Infrastructure
-2) GO Environment Setup
+2)  GO Environment Setup
    *  Create a projects directory to place our sample application
    *  Modify **/etc/environment** file
 3) Deploy the sample application to projects Directory  and compling the Application.
 4) Launch the sample application as systemd service and testing the sample application from Application server.
 
 ### 1) Launch the Appication layer of Infrastructure
-Launch 2 Ubuntu 16.04 EC2 Instances which acts as Application Nodes using AWS Web console:
+Launch 1 Ubuntu 16.04 EC2 Instances which acts as Application Nodes using AWS Web console. As of now we are launching only 1 Application server, once the configuration of this complete and tested we will create a Amazon Machine Image(AMI) and launch one more Application server to make to count of server 2.
 
 
 
