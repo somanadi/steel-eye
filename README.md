@@ -15,7 +15,7 @@ Launch 1 Ubuntu 16.04 EC2 Instances which acts as Application Nodes using AWS We
 In the section we will download and install **GO** binaries and set appropiate Environment variables, so that **GO** can access its binaries and our application code.
 &nbsp;
 
-- Once the system and instance status checks has passed the , SSH into the Application server and execute below commands to download and install **GO**.
+- Once the system and instance status checks has passed, SSH into the Application server and execute below commands to download and install **GO**.
 &nbsp;
 ``` sh
 $ sudo su
