@@ -28,22 +28,22 @@ $ chown -R root:root ./go
 $ mv go /usr/local
 ```
 
-- Create a projects directory to place our sample application in the projects directory
+- Create a projects directory 
 ```sh
 mkdir $HOME/projects/steeleye
 ```
-- Now we will edit **/etc/environment**   and set the  enviromental variable so that **GO** can access its binaries and also our application code.
+- Now we will edit **/etc/environment**   and set the  enviromental variables so that **GO** can access its binaries and also our application code.
 
 - Open /etc/environment using **vim** 
 ``` sh
-sudo vim /etc/environment
+vim /etc/environment
 ```
 - Make sure **/etc/environment** file match below configuration
 ```
 GOPATH="/root/projects/steeleye"
 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/go/bin:$GOPATH/bin"
 ```
-**3) Deploying the sample application to Projects Directory and Testing the Application.**
+**3) Deploying the sample application to the Projects Directory and  compiling**
 
 - Now create a file named app.go in **/root/projects/steeleye**
 ``` sh
@@ -68,16 +68,16 @@ func main() {
 }
 ```
 
-- Complie the  sample application using below command
+- Compile the  sample application using below command
 ```sh 
 cd /root/projects/steeleye
 go build
 ```
-### Launch the sample application as systemd service
+**3) Launch the sample application as systemd service
 
-Go language does not natively provide a reliable way to daemonize itself, so we need to run our sample app as a system service as shown below.
+Go language does not natively provide a reliable way to daemonize itself, so we need to run our sample application as a systemd service as shown below.
 
-- Create a file named steeleye.service in **/lib/systemd/system/**  as shown below
+- Create a file named steeleye.service at **/lib/systemd/system/**  as shown below
 ``` sh
 $ vim /lib/systemd/system/steeleye.service
 ```
@@ -101,7 +101,7 @@ WantedBy=multi-user.target
 Systemctl enable steeleye.service
 systemctl start steeleye
 ```
-- Now visit https://PUBLIC_IP_OF_APP_SERVER:8484 from your browser
+- Now visit https://PUBLIC_IP_OF_APP_SERVER:8484 from your browser and verify your getting expected results as below
 
 ![Alt text](https://raw.githubusercontent.com/iamsoman/steel-eye/master/app-server-output.PNG )
 
