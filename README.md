@@ -94,7 +94,15 @@ Systemctl enable steeleye.service
 systemctl start steeleye
 ```
 ### Now visit https://PUBLIC_IP_OF_APP_SERVER:8484 from your browser ###
-  
+
+![Alt text](https://raw.githubusercontent.com/iamsoman/steel-eye/master/app-server-output.PNG )
 
 
+
+
+
+ 
+
+
+ 
 
