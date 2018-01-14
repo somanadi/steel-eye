@@ -15,7 +15,7 @@ Launch 1 Ubuntu 16.04 EC2 Instances which acts as Application Nodes using AWS We
 In the section we will download and install **GO** binaries and set appropiate Environment variables, so that **GO** can access its binaries and our application code.
 &nbsp;
 
-**2a)** Once the system and instance has passed the status checks, SSH into the Application server and execute below commands to download and install **GO**.
+- Once the system and instance status checks has passed the , SSH into the Application server and execute below commands to download and install **GO**.
 &nbsp;
 ``` sh
 $ sudo su
@@ -28,11 +28,11 @@ $ chown -R root:root ./go
 $ mv go /usr/local
 ```
 
-**2b)** Create a projects directory to place our sample application
+- Create a projects directory to place our sample application in the projects directory
 ```sh
 mkdir $HOME/projects/steeleye
 ```
-**2c)** Now we will edit **/etc/environment**   and set the  enviromental variable so that **GO** can access its binaries and also our application code.
+- Now we will edit **/etc/environment**   and set the  enviromental variable so that **GO** can access its binaries and also our application code.
 
 - Open /etc/environment using **vim** 
 ``` sh
