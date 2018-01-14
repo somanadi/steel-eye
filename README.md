@@ -7,7 +7,7 @@
 4) Launch the sample application as systemd service and testing the sample application from Application server.
 
 ### 1) Launch the Appication layer of Infrastructure
-Launch 1 Ubuntu 16.04 EC2 Instances which acts as Application Nodes using AWS Web console. As of now we are launching only 1 Application server, once the configuration of this complete and tested we will create a Amazon Machine Image(AMI) and launch one more Application server to make to count of server 2.
+Launch 1 Ubuntu 16.04 EC2 Instances which acts as Application Nodes using AWS Web console. As of now we are launching only 1 Application server, once this server is fully configured and tested we will create a Amazon Machine Image(AMI) and launch one more Application server to make to count of Application Server 2.
 
 
 
