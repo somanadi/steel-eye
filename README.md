@@ -11,7 +11,7 @@ Launch 1 Ubuntu 16.04 EC2 Instances which acts as Application Nodes using AWS We
 
 
 
-### 2)GO Environment Setup
+### 2) GO Environment Setup
 In the section we will download and install **GO** binaries and set appropiate Environment variables, so that **GO** can access its binaries and our application code.
 &nbsp;
 
