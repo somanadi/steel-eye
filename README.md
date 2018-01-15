@@ -166,7 +166,7 @@ $ vim /etc/nginx/sites-enabled/default
 ```sh
 $ systemctl reload nginx
 ``` 
-- Now note visit PUBLIC_IP address from your Browser(preferably FireFox)  and hard refresh to see how the WEB node routes the traffic to Application Nodes in Round-Robin fashion. 
+- Now note visit Web Nodes PUBLIC_IP_ADDRESS from your Browser(preferably FireFox)  and hard refresh mutiple times to see how the WEB node routes the traffic to Application Nodes in Round-Robin fashion. 
 
 #### App_Server_1
 <p align="center">
