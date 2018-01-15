@@ -70,6 +70,7 @@ vim /root/projects/steeleye/app.go
 - Copy below sample **GO** application to **/root/projects/steeleye/app.go** file
  which you created in previous step
 ```
+package main
 import (
         "fmt"
         "net/http"
