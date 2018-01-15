@@ -77,12 +77,12 @@ go build
 
 Go language does not natively provide a reliable way to daemonize itself, so we need to run our sample application as a systemd service as shown below.
 
-- Create a file named steeleye.service at **/lib/systemd/system/**  as shown below
+- Create a file named **steeleye.service** at **/lib/systemd/system/**  as shown below
 ``` sh
 $ vim /lib/systemd/system/steeleye.service
 ```
 
-- Copy and paste the following contents  to ***steeleye.service*** file 
+- Copy and paste the following contents  to **steeleye.service** file 
 
 ```
 [Unit]
