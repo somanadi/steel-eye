@@ -47,7 +47,7 @@ PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/u
 
 - Now create a file named app.go in **/root/projects/steeleye**
 ``` sh
-Vim /root/projects/steeleye/app.go
+vim /root/projects/steeleye/app.go
 ```
 
 - Copy below sample GO application to **/root/projects/steeleye/app.go** file
