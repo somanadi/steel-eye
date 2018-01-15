@@ -116,7 +116,7 @@ WantedBy=multi-user.target
 
 - Now start steeleye service
 ``` sh
-Systemctl enable steeleye.service
+systemctl enable steeleye.service
 systemctl start steeleye
 ```
 - Now visit https://PUBLIC_IP_OF_APP_SERVER:8484 from your browser and verify your getting expected results as shown below
