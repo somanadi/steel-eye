@@ -7,7 +7,7 @@
 4) Launch the sample application as systemd service and testing the sample application from Application server.
 
 ### 1) Launch the Appication layer of Infrastructure
-Launch 1 Ubuntu 16.04 EC2 Instances which acts as Application Nodes using AWS Web console. As of now we are launching only 1 Application server, once this server is fully configured and tested we will create a Amazon Machine Image(AMI) and launch one more Application server to make to count of Application Server 2.
+Launch 1 Ubuntu 16.04 EC2 Instances which acts as Application Nodes using AWS Web console. As of now we are launching only 1 Application server, once this server is fully configured and tested we will create a Amazon Machine Image(AMI) and launch one more Application server to make to count of Application Servers 2.
 
 
 
@@ -73,7 +73,7 @@ func main() {
 cd /root/projects/steeleye
 go build
 ```
-**3) Launch the sample application as systemd service
+**4) Launch the sample application as systemd service
 
 Go language does not natively provide a reliable way to daemonize itself, so we need to run our sample application as a systemd service as shown below.
 
@@ -105,6 +105,7 @@ systemctl start steeleye
 
 ![Alt text](https://raw.githubusercontent.com/iamsoman/steel-eye/master/app-server-output.PNG )
 
+**5) Create the second Application Server
 
 
 
