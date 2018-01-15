@@ -43,9 +43,9 @@ vim /etc/environment
 GOPATH="/root/projects/steeleye"
 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/go/bin:$GOPATH/bin"
 ```
-### 3) Deploying the sample application to the Projects Directory and  compiling**
+### 3) Deploying the sample application to the Projects Directory and  compiling
 
-- Now create a file named app.go in **/root/projects/steeleye**
+- Now create a file named **app.go** in **/root/projects/steeleye** directory
 ``` sh
 vim /root/projects/steeleye/app.go
 ```
