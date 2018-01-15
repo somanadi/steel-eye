@@ -11,7 +11,7 @@ Launch 1 Ubuntu 16.04 EC2 Instances which acts as Application Nodes using AWS We
 
 
 
-## 2)GO Environment Setup
+### 2)GO Environment Setup
 In the section we will download and install **GO** binaries and set appropiate Environment variables, so that **GO** can access its binaries and our application code.
 &nbsp;
 
@@ -43,7 +43,7 @@ vim /etc/environment
 GOPATH="/root/projects/steeleye"
 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/go/bin:$GOPATH/bin"
 ```
-##3) Deploying the sample application to the Projects Directory and  compiling**
+### 3) Deploying the sample application to the Projects Directory and  compiling**
 
 - Now create a file named app.go in **/root/projects/steeleye**
 ``` sh
@@ -73,7 +73,7 @@ func main() {
 cd /root/projects/steeleye
 go build
 ```
-##4) Launch the sample application as systemd service
+### 4) Launch the sample application as systemd service
 
 Go language does not natively provide a reliable way to daemonize itself, so we need to run our sample application as a systemd service as shown below.
 
@@ -105,7 +105,7 @@ systemctl start steeleye
 
 ![Alt text](https://raw.githubusercontent.com/iamsoman/steel-eye/master/app-server-output.PNG )
 
-##5) Launch the second Application server.
+### 5) Launch the second Application server.
 Now that we have fully configured and tested our first Application server, we can now create a AMI of it and Launch the second application server to increase the count of Application server to 2.
 
 
