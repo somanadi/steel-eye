@@ -1,13 +1,13 @@
 # Steel-Eye Infrastructure Technical Test Deployment
 
-## Application Tier Setup
+##A) Application Tier Setup
 In this section we willl launching, configuring and testing the application tier EC2 instances.
 1)  Launch the Appication layer of Infrastructure
 2)  **GO** Environment Setup
 3) Deploy the sample application to projects Directory and compling the sample Application.
 4) Launch the sample application as systemd service and testing the sample application deployed in the  Application server.
 
-## Web Tier setup
+##B) Web Tier setup
 In this section we will be launching our web server and configuring it to route the traffic in Round-Robin fashion to the Application servers we created in previous step.
 1) Launch one Ubuntu 16.04 EC2 instance from AWS console.
 2) Installing and configuring a NGINX in the WEB node and testing our final setup
@@ -15,7 +15,7 @@ In this section we will be launching our web server and configuring it to route 
 
 ___
 
-## Application Tier Setup
+##A) Application Tier Setup
 
 ### 1) Launch the Application layer of Infrastructure
 Launch one Ubuntu 16.04 EC2 Instances which acts as a Application Node using AWS Web console and open TCP port **8484** from instance security group. As of now we are launching only 1 Application server, once this server is fully configured and tested we will create a Amazon Machine Image(AMI) and launch one more Application server in the coming steps to increase the count of Application Servers to 2.
@@ -124,7 +124,7 @@ Now that we have fully configured and tested our first Application server, we ca
 &nbsp;
 &nbsp;
 
-## Web Tier Setup
+##B) Web Tier Setup
 In this section lets launch a  **Ubuntu 16.04** EC2 instance and configure it to be our **WEB node**
 
 ### 1) Launch the web node from AWS console.
