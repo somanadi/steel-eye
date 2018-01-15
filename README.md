@@ -1,4 +1,4 @@
-# Technical Test Instructions
+# Steel-Eye Infrastructure Technical Test Deployment
 
 ## Application Tier Setup
 In this section we willl launching, configuring and testing the application tier EC2 instances.
