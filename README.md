@@ -12,6 +12,8 @@ In this section we willl launching, configuring and testing the application tier
 ## Web Tier
 In this section we will be launching our web server and configuring it to route the traffic to the Application server we created in previous step.
 1) Launch one Ubuntu 16.04 EC2 instance from AWS console.
+2) Installing and configuring a NGINX in the WEB node and testing our final setup
+
 
 ___
 
@@ -128,7 +130,7 @@ In this section lets launch a  ubuntu 16.04 EC2 instance and configure it to be 
 ### 1) Launch the web node from AWS console.
 Launch a  ubuntu 16.04 EC2 instance from AWS web console which we will be configuring as our **WEB** node and also open **HTTP PORT** in the instance security group.
 
-### 2) Installing and configuring NGINX in the WEB node
+### 2) Installing and configuring NGINX in the WEB node and testing our final setup
 In this section we will install and configure NGinx to route traffic to our Application servers in Round-Robin fashion.
 
 - Once the Web instance passes system and health check, **SSH** in to the instance and execute the below commands to install **NGINX** 
