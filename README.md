@@ -170,7 +170,7 @@ $ systemctl reload nginx
 
 #### App_Server_1
 <p align="center">
-  <img width="460" height="300" src="https://raw.githubusercontent.com/iamsoman/steel-eye/master/app-server-output.PNG">
+  <img width="460" height="300" src="https://raw.githubusercontent.com/iamsoman/steel-eye/master/round-robin-1.PNG">
 </p>
 
 &nbsp;
@@ -178,7 +178,7 @@ $ systemctl reload nginx
 #### App_Server_2
 
 <p align="center">
-  <img width="460" height="300" src="https://raw.githubusercontent.com/iamsoman/steel-eye/master/app-server-output.PNG">
+  <img width="460" height="300" src="https://raw.githubusercontent.com/iamsoman/steel-eye/master/round-robin-2.PNG">
 </p>
 
 
