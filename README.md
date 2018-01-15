@@ -1,13 +1,13 @@
 # Steel-Eye Infrastructure Technical Test Deployment
 
-##A) Application Tier Setup
+## A) Application Tier Setup
 In this section we willl launching, configuring and testing the application tier EC2 instances.
 1)  Launch the Appication layer of Infrastructure
 2)  **GO** Environment Setup
 3) Deploy the sample application to projects Directory and compling the sample Application.
 4) Launch the sample application as systemd service and testing the sample application deployed in the  Application server.
 
-##B) Web Tier setup
+## B) Web Tier setup
 In this section we will be launching our web server and configuring it to route the traffic in Round-Robin fashion to the Application servers we created in previous step.
 1) Launch one Ubuntu 16.04 EC2 instance from AWS console.
 2) Installing and configuring a NGINX in the WEB node and testing our final setup
