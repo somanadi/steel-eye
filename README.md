@@ -168,9 +168,14 @@ $ systemctl reload nginx
 ``` 
 - Now note visit PUBLIC_IP address from your Browser
 
+#### App_Server_1
 <p align="center">
   <img width="460" height="300" src="https://raw.githubusercontent.com/iamsoman/steel-eye/master/app-server-output.PNG">
 </p>
+
+&nbsp;
+
+#### App_Server_2
 
 <p align="center">
   <img width="460" height="300" src="https://raw.githubusercontent.com/iamsoman/steel-eye/master/app-server-output.PNG">
