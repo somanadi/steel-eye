@@ -109,7 +109,7 @@ ConditionPathExists=/root/projects/steeleye/steeleye
 [Service]
 Restart=always
 RestartSec=3
-ExecStart==/root/projects/steeleye/steeleye
+ExecStart=/root/projects/steeleye/steeleye
 [Install]
 WantedBy=multi-user.target
 ```
