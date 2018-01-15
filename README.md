@@ -54,7 +54,13 @@ vim /etc/environment
 GOPATH="/root/projects/steeleye"
 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/go/bin:$GOPATH/bin"
 ```
-### 3) Deploy the sample application to projects Directory and compling the sample Application.
+### 3) Now run the below for the environment variables changes you make in the previous to take effect
+
+```sh
+source /etc/environment
+```
+
+### 4) Deploy the sample application to projects Directory and compling the sample Application.
 
 - Now create a file named **app.go** at **/root/projects/steeleye** directory
 ``` sh
@@ -84,7 +90,7 @@ func main() {
 cd /root/projects/steeleye
 go build
 ```
-### 4) Launch the sample application as systemd service and testing the sample application deployed in the  Application server.
+### 5) Launch the sample application as systemd service and testing the sample application deployed in the  Application server.
 
 Go language does not natively provide a reliable way to daemonize itself, so we need to run our sample application as a systemd service as shown below.
 
@@ -119,7 +125,7 @@ systemctl start steeleye
 </p>
 
 
-### 5) Launch the second Application server.
+### 6) Launch the second Application server.
 Now that we have fully configured and tested our first Application server, we can now create a AMI of it and Launch the second application server to increase the count of Application server to 2 and also open TCP port **8484** from instance security group.
 &nbsp;
 &nbsp;
