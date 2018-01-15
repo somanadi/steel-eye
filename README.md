@@ -125,11 +125,8 @@ systemctl start steeleye
   <img width="460" height="300" src="https://raw.githubusercontent.com/iamsoman/steel-eye/master/app-server-output.PNG">
 </p>
 
-
 ### 6) Launch the second Application server.
 Now that we have fully configured and tested our first Application server, we can now create a AMI of it and Launch the second application server to increase the count of Application server to 2 and also open TCP port **8484** from instance security group.
-&nbsp;
-&nbsp;
 
 ## B) Web Tier Setup
 In this section lets launch a  **Ubuntu 16.04** EC2 instance and configure it to be our **WEB node**
