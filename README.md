@@ -41,7 +41,7 @@ $ mv go /usr/local
 
 - Create a projects directory to place our sample application 
 ```sh
-mkdir $HOME/projects/steeleye
+mkdir -p $HOME/projects/steeleye
 ```
 - Now we will edit **/etc/environment**   and set the  enviromental variables so that **GO** can access its binaries and also our application code.
 
