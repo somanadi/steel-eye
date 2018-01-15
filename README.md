@@ -157,7 +157,6 @@ $ vim /etc/nginx/sites-enabled/default
 
     server {
         listen 80;
-        server_name ec2-52-90-29-221.compute-1.amazonaws.com;
         location / {
             proxy_pass http://steeleye;
         }
