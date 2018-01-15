@@ -6,8 +6,8 @@
 3) Deploy the sample application to projects Directory  and compling the Application.
 4) Launch the sample application as systemd service and testing the sample application from Application server.
 
-### 1) Launch the Appication layer of Infrastructure
-Launch 1 Ubuntu 16.04 EC2 Instances which acts as Application Nodes using AWS Web console. As of now we are launching only 1 Application server, once this server is fully configured and tested we will create a Amazon Machine Image(AMI) and launch one more Application server to make to count of Application Servers 2.
+### 1) Launch the Application layer of Infrastructure
+Launch 1 Ubuntu 16.04 EC2 Instances which acts as Application Nodes using AWS Web console. As of now we are launching only 1 Application server, once this server is fully configured and tested we will create a Amazon Machine Image(AMI) and launch one more Application server in the coming steps to make to count of Application Servers 2.
 
 
 
@@ -105,7 +105,7 @@ systemctl start steeleye
 
 ![Alt text](https://raw.githubusercontent.com/iamsoman/steel-eye/master/app-server-output.PNG )
 
-### 5) Launch the second Application server.
+### 5) Launch the second Application server tier.
 Now that we have fully configured and tested our first Application server, we can now create a AMI of it and Launch the second application server to increase the count of Application server to 2.
 
 
